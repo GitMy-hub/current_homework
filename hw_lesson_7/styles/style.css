@@ -19,7 +19,7 @@ li {
     font-family: var(--primary-font);
     background: linear-gradient(113.49deg,var(--backgraund-primary) , var(--backgraund-secondary));
     width: 1440px;
-    height: 7724px;;
+    height: 5149px;
 }
 
     /* header */
@@ -146,7 +146,7 @@ p span {
     border-radius: 10px;
     color: var(--primary-color);
 }
-
+    /* main */
 .img__rectangle-15 {
     position: absolute;
     width: 187px;
