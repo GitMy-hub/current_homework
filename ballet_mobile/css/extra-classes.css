@@ -13,6 +13,8 @@
     font-size: calc(var(--fs-xs) - 2px);
     margin-top: var(--margin-s);
     color: var(--secondary-text-color);
+    width: 296px;
+    text-align: justify;
 }
 
 .sub-title {
