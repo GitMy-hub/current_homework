@@ -17,15 +17,15 @@ body {
    color: var(--primary-text-color);
    font-family: var(--ff-assistant);
    background: var(--primary-bg);
-
+   
 }
 
 .preview {
     padding: var(--padding-m);
     width: 377px;
     background: url("../public/images/backgrounds/background-1.png");
-    background-size: 1300px;
-    background-position: center;
+    background-size: cover;
+    background-position: top;
     height: 476px;
 }
 
@@ -47,8 +47,8 @@ body {
 }
 
 .main__title {
-    margin-top: calc(var(--margin-xxl) + 4px);
-    font-size: var(--fs-l);
+    margin-top: calc(var(--margin-s) + 4px);
+    font-size: calc(var(--fs-l) - 2px);
     font-family: var(--ff-kaisei);
 }
 
@@ -71,10 +71,6 @@ body {
     transform: translateY(-50%);
 }
 
-.about-us {
-    padding-left: var(--padding-m);
-}
-
 .about-us__title {
     margin-top: 40px;
 }
@@ -84,11 +80,7 @@ body {
     margin-top: var(--margin-m);
 }
 
-.directions {
-    padding-left: var(--padding-m);
-}
-
-.trainers, .groups {
+.about-us, .directions, .trainers, .groups {
     padding-left: var(--padding-m);
 }
 
@@ -103,6 +95,7 @@ body {
 .trainer__name {
     margin-top: var(--margin-s);
     text-align: center;
+    width: 296px;
 }
 
 

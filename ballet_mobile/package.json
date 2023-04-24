@@ -1,5 +1,5 @@
 {
-  "name": "ballet",
+  "name": "ballet_mobile",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.2.0"
+    "vite": "^4.3.0"
   }
 }
