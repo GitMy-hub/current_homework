@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <title>Product card</title>
+  </head>
+  <body>
+    <style>      
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    li {
+      list-style-type: none;
+    }
+    </style>
+    <div id="app">
+
+      <section class="header">
+        <div class="container col-10 d-flex justify-content-between align-items-center">
+          <div class="title fw-bold fs-2">Parostok</div>
+          <div class="nav-link">
+            <a href="#" class="link m-3 fs-5">Главная</a>
+            <a href="#" class="link m-3 fs-5">Товары и услуги</a>
+            <a href="#" class="link m-3 fs-5">О нас</a>
+            <a href="#" class="link m-3 fs-5">Контакты</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="search">
+        <div class="container col-10">
+          <div class="row">
+            <div class="searchbar col-5">
+              <img
+                src="./public/icons/search.png"
+                alt="none images"
+                class="search-icon mt-2"
+              />
+            </div>
+            <div class="col-6 mt-3"></div>
+            <div class="shopicon-wrapper col-1 mt-3">
+              <img src="./public/icons/shop_bag.png" alt="none images" class="shopicon" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="goback">
+        <div class="container col-10">
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="./public/icons/arrow _back.png"
+                alt="none images"
+                class="search-icon"
+              />
+              <span class="info"
+                >Главная / Декоративные кустарники / Самшиты / Самшит
+                Вечнозеленый</span
+              >
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-card">
+        <div class="container col-10">
+          <div class="row">
+            <div class="product-img col-5">
+              <div class="main-img__wrapper">
+                <img src="./public/images/Rectangle 21.png" alt="none images" class="main-img" />
+              </div>
+              <div class="sec-img__wrapper">
+                <img src="./public/images/Rectangle 21.png" alt="none images" class="sec-img" />
+                <img src="./public/images/Rectangle 21.png" alt="none images" class="sec-img" />
+                <img src="./public/images/Rectangle 21.png" alt="none images" class="sec-img" />
+              </div>
+            </div>
+            <div class="profuct-info col-7">
+              <div class="block-1">
+                <div class="card-title">Самшит Вечнозеленый</div>
+                <div class="col d-flex align-items-center gap-5 mt-3">
+                  <div class="availability">Нет в наличии</div>
+                  <div class="code">Код:000095</div>
+                </div>
+                <div class="quantity col d-flex align-items-center">
+                  <img src="./public/icons/vector-.png" alt="none images" class="minus" />
+                  <div class="number fs-6">1</div>
+                  <img src="./public/icons/vector+.png" alt="none images" class="plus" />
+                </div>
+              </div>
+              <div class="price fs-3">70 грн</div>
+              <button type="button" class="btn btn-secondary btn-lg">
+                Купить
+              </button>
+
+              <div class="block-2">
+                <div class="product__form-wrapper">
+                  <form class="product__form">
+                    <div class="form d-flex justify-content-between">
+                      <div class="form__menu fs-6">Описание</div>
+                      <div class="side-panel__wrapper">
+                        <img
+                          src="./public/icons/arrow_down.png"
+                          alt="none images"
+                          class="side-panel__icon"
+                        />
+                      </div>
+                    </div>
+                  </form>
+
+                  <form class="product__form">
+                    <div class="form d-flex justify-content-between">
+                      <div class="form__menu fs-6">Оплата и доставка</div>
+                      <div class="side-panel__wrapper">
+                        <img
+                          src="./public/icons/arrow_down.png"
+                          alt="none images"
+                          class="side-panel__icon"
+                        />
+                      </div>
+                    </div>
+                  </form>
+
+                  <form class="product__form">
+                    <div class="form d-flex justify-content-between">
+                      <div class="form__menu fs-6">Возврат и обмен</div>
+                      <div class="side-panel__wrapper">
+                        <img
+                          src="./public/icons/arrow_down.png"
+                          alt="none images"
+                          class="side-panel__icon"
+                        />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="recent">
+        <div class="recent-title container col-10 fs-1 text-center">
+          Недавно смотрели
+        </div>
+      </section>
+      <section class="recent-view">
+        <div class="container col-10">
+          <div class="cards d-flex gap-3">
+            <div class="recent-card">
+              <img src="./public/images/Rectangle 21.png" alt="none images" class="plant" />
+              <div class="card-description col-6 fs-6">
+                Саженцы гортензии метельчастой Полар Беар
+              </div>
+              <div class="card-storage">Нет в наличии</div>
+              <div class="card-price d-flex">
+                <div class="pricetag fs-6 col-3">70 грн</div>
+                <button class="buy col-3">Купить</button>
+              </div>
+            </div>
+            <div class="recent-card">
+              <img src="./public/images/Rectangle 21.png" alt="none images" class="plant" />
+              <div class="card-description col-6 fs-6">
+                Саженцы гортензии метельчастой Полар Беар
+              </div>
+              <div class="card-storage">Нет в наличии</div>
+              <div class="card-price d-flex">
+                <div class="pricetag fs-6 col-3">70 грн</div>
+                <button class="buy col-3">Купить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container col-10">
+          <div class="footer-title fw-bold fs-2">Parostok</div>
+          <div class="footer-info__wrapper">
+            <div class="footer-info d-flex">
+              <div class="contacts col">
+                <div class="contacts-title">Контакты</div>
+                <div class="contacts-info fs-6">+380 (67) 645-06-10</div>
+                <div class="contacts-info fs-6">Андрей Усенко</div>
+              </div>
+              <div class="adress col">
+                <div class="adress-title">Адресс</div>
+                <div class="adress-info fs-6">Днепр, Украина</div>
+                <div class="adress-info fs-6">График работы</div>
+              </div>
+              <div class="email col">
+                <div class="email-title">E-mail</div>
+                <div class="email-info fs-6">parostok.net.ua@gmail.com</div>
+              </div>
+              <div class="leaf-wrapper col">
+                <img src="./public/images/Monstera Leaf.png" alt="none images" class="leaf-img" />
+              </div>
+            </div>
+            <div class="footer-about d-flex">
+              <div class="about-link fs-6 p-1">Privacy Policy</div>
+              <div class="about-link fs-6 p-1">Company Data</div>
+              <div class="about-link fs-6 p-1">All Cookies</div>
+              <div class="about-link fs-6 p-1">Rules</div>
+            </div>
+            <div class="rights">All rights reserved © 2022</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
