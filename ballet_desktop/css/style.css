@@ -162,21 +162,3 @@ li {
     left: 20px;
     transform: translateY(-50%);
 }
-
-
-/* @media (min-width : 1000px) {
-    #app {
-        background: darkmagenta;
-    }
-} */
-
-p {
-    color: var(--primary-color);
-}
-
-p span {
-    backgrounds
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
