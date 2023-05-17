@@ -1,0 +1,44 @@
+@keyframes rainbow {
+
+    0% {
+        color : green;
+        text-shadow: var(--text-shadow-primary) red;       
+    }
+
+    25% {
+       color : red;
+    
+       text-shadow: var(--text-shadow-primary) gold;  
+    }
+
+    50% {
+       color : orange;
+       text-shadow: var(--text-shadow-primary) forestgreen;  
+    }
+
+    75% {
+       color : blue;
+    
+       text-shadow: var(--text-shadow-primary) wheat;   
+    }
+
+    100% {
+       color : skyblue;
+       text-shadow: var(--text-shadow-primary) blueviolet;  
+    }
+}
+
+@keyframes btn-animation {
+    from {
+        transform: scale(1);
+        border: 1px solid rgb(0, 105, 128);
+        border-radius: 1rem;
+    }
+
+    to {
+        transform: scale(1.5) ;
+        border: 2px solid rgb(0, 113, 128);
+        box-shadow: var(--text-shadow-primary) rgb(59, 146, 78);
+        border-radius: rem;
+    }
+}
