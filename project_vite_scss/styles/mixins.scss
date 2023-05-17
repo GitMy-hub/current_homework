@@ -1,0 +1,10 @@
+@mixin set_gradient($deg, $fc , $sc){
+    background: linear-gradient($deg, $fc, $sc);
+}
+
+@mixin d-flex($jc , $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+

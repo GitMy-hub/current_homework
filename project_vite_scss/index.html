@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+    <!-- * FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/456e82e712.js" 
+    crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite </title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="header__title">
+            <p>SCSS<span>Vite Project</span></p>
+        </div>
+
+        <div class="input-wrapper">
+          <img src="./public/icons/Frame 3.png" alt="Something went wrong!" class="seach__logo">
+          <input 
+          type="text" 
+          class="seach" 
+          placeholder="Search items and collections" />
+        </div>
+
+        
+
+        <div class="nav">
+            <a href="#" class="nav-link">Collections</a>
+            <a href="#" class="nav-link">Feature</a>
+            <a href="#" class="nav-link">FAQ</a>
+            <form action="#">
+              <button class="button__select-wallet"> MyGitHub</button>
+            </form>
+        </div>
+
+    </header>
+
+    <main class="main">
+      <div class="content__info">
+        <p class= "main__title _anim-items">Create, Sell & Collect Your Own Creative</p>
+
+        <p class="main__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat voluptatibus cupiditate sunt quibusdam excepturi, similique nostrum minima unde labore praesentium exercitationem, minus maiores officia est. Veniam reiciendis quasi nihil.
+        </p>
+        <div class="main__action">
+            <form action="#">
+            <button class="button__explore">Explore Now</button>
+            </form>
+            <button class="button__sell">Buy</button>
+        </div>
+      </div>
+
+      <div class="video__wrapper">
+        <div class="player">
+          <video class="video" autoplay>
+            <source src="./public/video/star.MP4" type="video/mp4">
+          </video>
+        <div class="controls">
+          <div class="controls__play">
+            <!-- * FONT-AWESOME -->
+            <i class="play__btn fa-brands fa-google-play fa-beat fa-xl" style="color: #1a0a53;"></i>
+          </div>
+          <div class="controls__stop">
+            <!-- * FONT-AWESOME -->
+            <i class="fa-solid fa-stop fa-2xl" style="color: #791a3e;"></i>
+          </div>
+          <div class="controls__progress">
+            <input type="range" class="progress">
+          </div>
+          <div class="controls__time">00:00</div>
+          
+        </div>
+      </div>
+    </main>
+
+  
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

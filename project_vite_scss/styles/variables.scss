@@ -1,0 +1,58 @@
+
+// * BG
+$backgraund-primary : #984D38 -30.3%;
+$backgraund-secondary : #181E41 58.12%;
+$backgraund-button-active-first : #B75CFF 6.04%;
+$backgraund-button-active-secondary : #671AE4 92.95%;
+$backgraund-button : rgba(255, 255, 255, 0.1);
+$backgraund-product-hover : rgba(255, 255, 255, 0.5);
+$backgraund-product : rgba(255, 255, 255, 0.1);
+
+%buttonActive{
+    @include d-flex(center, center);
+    @include set_gradient( 214.02deg, $backgraund-button-active-first, $backgraund-button-active-secondary);
+}
+
+// * Font
+$primary-font : "Poppins";
+
+// * Colors
+$primary-color : #FFFFFF;
+$secondary-color : rgba(255, 255, 255, 0.5);
+
+// * Box-shadow
+$box-shadow-product : 0px 5px 4px rgba(0, 0, 0, 0.25);
+
+// * Border-radius
+$border-radius-prodect : 10px;
+
+// * Padding
+$p-xxl: 4rem;
+$p-xl: 3rem;
+$p-l: 2rem;
+$p-m: 1rem;
+$p-s: .8rem;
+
+// * Margin 
+$m-xxl: 6rem;
+$m-xl: 3rem;
+$m-l: 2rem;
+$m-m: 1rem;
+$m-s: .8rem;
+
+// * Font-size
+$fs-xxl: 4rem;
+$fs-xl: 3rem;
+$fs-l: 2rem;
+$fs-m: 1rem;
+$fs-s: .8rem;
+
+// * Width 
+$full-width: 100%;
+$half-width: 50%;
+$quoter-width: 25%;
+
+// * Height
+$full-height: 100%;
+$half-height: 50%;
+$quoter-height: 25%;

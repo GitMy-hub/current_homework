@@ -1,0 +1,56 @@
+// $variable_name
+
+$primary-bg : linear-gradient(214.02deg , #B75CFF 6.04%, #671AE4 92.95%);
+
+@keyframes rainbow {
+
+    0% {
+        background : linear-gradient(214.02deg , #B75CFF 6.04%, #671AE4 92.95%);      
+    }
+
+    10% {
+        background : linear-gradient(224.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+
+    20% {
+        background : linear-gradient(234.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+    30% {
+        background : linear-gradient(244.02deg , #B75CFF 26.04%, #671AE4 72.95%);
+    }
+
+    40% {
+        background : linear-gradient(254.02deg , #B75CFF 16.04%, #671AE4 82.95%);  
+    }
+
+    50% {
+        background : linear-gradient(264.02deg , #B75CFF 6.04%, #671AE4 92.95%);
+    }
+
+    60% {
+        background : linear-gradient(274.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+
+    70% {
+        background : linear-gradient(264.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+
+    80% {
+        background : linear-gradient(254.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+
+    90% {
+        background : linear-gradient(244.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+
+    100% {
+        background : linear-gradient(224.02deg , #B75CFF 16.04%, #671AE4 82.95%);
+
+    }
+}
