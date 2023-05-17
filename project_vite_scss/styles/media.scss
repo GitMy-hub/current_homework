@@ -2,14 +2,50 @@
 @import "./mixins.scss";
 
 
-@media (max-width : 576px) {
+@mixin _1170 {
+    @media (max-width: 1170px){
+        @content;
+    }
+}
+
+@mixin _979 {
+    @media (max-width: 979px){
+        @content;
+    }
+}
+
+@mixin _768 {
+    @media (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin _600 {
+    @media (max-width: 600px){
+        @content;
+    }
+}
+
+@mixin _480 {
+    @media (max-width: 480px){
+        @content;
+    }
+}
+
+@mixin _350{
+    @media (max-width: 350px){
+        @content;
+    }
+}
+
+// @media (max-width : 576px) {
     
-}
+// }
 
-@media (min-width : 576px) and (max-width : 768px) {  
+// @media (min-width : 576px) and (max-width : 768px) {  
  
-}
+// }
 
-@media (min-width : 768px) and (max-width: 992px){
+// @media (min-width : 768px) and (max-width: 992px){
  
-}
+// }
